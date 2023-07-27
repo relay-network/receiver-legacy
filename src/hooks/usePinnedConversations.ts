@@ -4,7 +4,7 @@ import {
   isConversation,
   useReadValue,
   XmtpWorkerQueryResult,
-} from '@relaycc/xmtp-hooks';
+} from '@relay-network/xmtp-hooks';
 
 export const usePinnedConversations = ({
   clientAddress,

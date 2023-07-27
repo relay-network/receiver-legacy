@@ -7,7 +7,7 @@ We welcome contributions of any size or complexity ⭐️ to this project, pleas
 Start out by saying hi 👋. If you plan to contribute towards an existing issue, feel free to comment in that issue,
 the Relay team will be super excited to hear from you! You could also [join the Relay community](#community) ❤️.
 
-If there's no existing issue for your contribution, [creating an issue](https://github.com/relaycc/receiver/issues/new/choose) for it would be a great idea. Doing so will help us align on what should be implemented and avoid rework. That said, if you're just itching to write some code, go for it! The Relay team can create an issue for you if necessary.
+If there's no existing issue for your contribution, [creating an issue](https://github.com/relay-network/receiver/issues/new/choose) for it would be a great idea. Doing so will help us align on what should be implemented and avoid rework. That said, if you're just itching to write some code, go for it! The Relay team can create an issue for you if necessary.
 
 ### GitPOAP
 
@@ -56,14 +56,14 @@ A top-notch 🦄 pull request will include:
 
 ### Other contributions
 
-If you have an idea for a new feature or have found a bug, please [open an issue](https://github.com/relaycc/receiver/issues/new/choose) or [join the community](#community).
+If you have an idea for a new feature or have found a bug, please [open an issue](https://github.com/relay-network/receiver/issues/new/choose) or [join the community](#community).
 
 ### Community
 
 The Relay dev team mostly communicates via issues and pull requests, feel free to join any open conversation! Some other options:
 
 * [join our Discord](https://discord.gg/DTMKf63ZSf)
-* start a GitHub [discussion](https://github.com/relaycc/receiver/discussions), 
+* start a GitHub [discussion](https://github.com/relay-network/receiver/discussions), 
 * message the maintainer on [Twitter](https://twitter.com/killthebuddha_).
 
 ### Code of Conduct

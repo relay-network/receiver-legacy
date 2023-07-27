@@ -6,7 +6,7 @@ import {
   useFetchMessages,
   Message,
   Conversation,
-} from '@relaycc/xmtp-hooks';
+} from '@relay-network/xmtp-hooks';
 
 type MessageBucket = MessagesBucketProps['bucket'];
 

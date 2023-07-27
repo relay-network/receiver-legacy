@@ -5,7 +5,7 @@ import {
   useWriteValue,
   Conversation,
   isSameConversation,
-} from '@relaycc/xmtp-hooks';
+} from '@relay-network/xmtp-hooks';
 import {
   ExitIcon,
   GoBackIcon,

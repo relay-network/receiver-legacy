@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { OwnedNfts, OwnedNFTsResponse } from './types';
 
-// TODO(achilles@relay.cc) In the future the contractAddresses param can be
+// TODO(achilles@relay.network) In the future the contractAddresses param can be
 // opened up to allow arrays.
-// TODO(achilles@relay.cc) Figure out what types this should be.
+// TODO(achilles@relay.network) Figure out what types this should be.
 const fetchNFTs = async (owner: string, contractAddresses: string) => {
   const alchemyKey = 'kmMb00nhQ0SWModX6lJLjXy_pVtiQnjx';
   const url = `https://eth-mainnet.g.alchemy.com/nft/v2/${alchemyKey}/getNFTs`;

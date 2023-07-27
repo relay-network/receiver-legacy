@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { isEthAddress, useXmtpClient } from '@relaycc/xmtp-hooks';
+import { isEthAddress, useXmtpClient } from '@relay-network/xmtp-hooks';
 import { truncateAddress } from '../../../utils';
 import {
   useEnsName,

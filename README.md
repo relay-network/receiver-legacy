@@ -7,29 +7,17 @@
 Relay Receiver is a [React](https://reactjs.org/) library that makes it easy to
 add Web3 messaging to your website.
 
-- 🔥 Out-of-the-box wallet-to-wallet messaging, to a site admin or between users.
+- 🔥 Out-of-the-box wallet-to-wallet messaging
 - ✅ Easily customizable, with nice defaults.
 - 🦄 Built on top of [XMTP](https://xmtp.com)
-
-## Quick start
-
-Check out the [example](https://github.com/relaycc/receiver-example-cra) using [create-react-app](https://create-react-app.dev/) and [wagmi](https://wagmis.sh). You can see it live at https://react.relay.cc, or run it yourself:
-
-```bash
-git clone https://github.com/relaycc/receiver-example-cra.git
-cd receiver-example-cra
-npm install
-npm start
-# Then navigate to http://localhost:3000 in your browser
-```
 
 ## Installation
 
 ```
 # with npm
-npm install @relaycc/receiver
+npm install @relay-network/receiver
 # with yarn
-yarn add @relaycc/receiver
+yarn add @relay-network/receiver
 ```
 
 ## Basic Usage
@@ -42,7 +30,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Receiver } from '@relaycc/receiver';
+import { Receiver } from '@relay-network/receiver';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -63,7 +51,7 @@ _This code only accesses and uses the connected wallet, it assumes the steps to 
 
 ```TypeScript
 import { useSigner } from 'wagmi';
-import { useWallet } from '@relaycc/receiver';
+import { useWallet } from '@relay-network/receiver';
 
 function MyWalletComponent() {
   // Access the user's connected wallet.
@@ -86,7 +74,7 @@ Now you're ready to add the Receiver components. The default configuration adds 
 this configuration, add `<Intercom />`, `<Window />` and `<Launcher />` to your app.
 
 ```TypeScript
-import { Intercom, Window, Launcher } from '@relaycc/receiver';
+import { Intercom, Window, Launcher } from '@relay-network/receiver';
 
 function App() {
   return (
@@ -110,7 +98,7 @@ active. To instead jump directly into a 1:1 conversation with a specific wallet 
 you can pass in the `peerAddress` prop:
 
 ```TypeScript
-import { Intercom, Window, Launcher } from '@relaycc/receiver';
+import { Intercom, Window, Launcher } from '@relay-network/receiver';
 
 function App() {
   return (
@@ -131,7 +119,7 @@ export default App;
 You can also use the `useLaunch` hook to turn any component into a Receiver launcher:
 
 ```TypeScript
-import { Intercom, Window, useLaunch } from '@relaycc/receiver';
+import { Intercom, Window, useLaunch } from '@relay-network/receiver';
 
 function App() {
   const launch = useLaunch();
@@ -161,7 +149,7 @@ This means that the `<Window />` component can be positioned anywhere you like.
 For example, you could center it:
 
 ```TypeScript
-import { Window, Launcher } from '@relaycc/receiver';
+import { Window, Launcher } from '@relay-network/receiver';
 import './App.css';
 
 function App() {
@@ -212,10 +200,10 @@ basic styling like a border, box-shadow, or custom positioning.
 
 ## Documentation
 
-For full documentation, visit [docs.relay.cc](https://docs.relay.cc/relay/relay-receiver).
+Full API documentation and examples are on their way!
 
 ## License
 
-Licensed under the MIT License, Copyright © 2022-present [Relay](https://relay.cc).
+Licensed under the MIT License, Copyright © 2022-present [Relay](https://relay.network).
 
 See [LICENSE](./LICENSE) for more information.

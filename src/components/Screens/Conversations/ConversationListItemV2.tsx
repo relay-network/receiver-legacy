@@ -8,7 +8,7 @@ import {
   EthAddress,
   isMessage,
   useFetchMessages,
-} from '@relaycc/xmtp-hooks';
+} from '@relay-network/xmtp-hooks';
 import { LoadingText } from '../../Elements/LoadingText';
 
 export interface ConversationListItemV2Props {

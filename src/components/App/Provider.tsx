@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { receiverContext } from '../../hooks';
-import { XmtpProvider } from '@relaycc/xmtp-hooks';
+import { XmtpProvider } from '@relay-network/xmtp-hooks';
 
 const queryClient = new QueryClient();
 

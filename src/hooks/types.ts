@@ -1,4 +1,4 @@
-import { Conversation } from '@relaycc/xmtp-hooks';
+import { Conversation } from '@relay-networketwork/xmtp-hooks';
 
 export type Setter<T> = (state: T) => unknown;
 

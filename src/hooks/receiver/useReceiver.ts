@@ -2,7 +2,7 @@ import create from 'zustand';
 import { useCallback, useState, useEffect } from 'react';
 import { ReceiverAction, Setter, ReceiverScreen } from '../types';
 import { Signer } from '@ethersproject/abstract-signer';
-import { EthAddress, isEthAddress } from '@relaycc/xmtp-hooks';
+import { EthAddress, isEthAddress } from '@relay-network/xmtp-hooks';
 
 export interface ReceiverStore {
   wallet: Signer | null;

@@ -2,7 +2,7 @@ import React from 'react';
 import { FunctionComponent, useCallback } from 'react';
 import { useReceiver } from '../../hooks';
 import { Discord, Github, Mirror, Twitter } from './Icons';
-import { EthAddress, useStartClient } from '@relaycc/xmtp-hooks';
+import { EthAddress, useStartClient } from '@relay-network/xmtp-hooks';
 
 export interface InfoCardProps {
   variant:
@@ -96,7 +96,7 @@ export const InfoCard: FunctionComponent<InfoCardProps> = ({
           </div>
           <div className="InfoCard Text">
             {
-              "Please message us if you're on the app's team, or share relay.cc with them!"
+              "Please message us if you're on the app's team, or share relay.network with them!"
             }
           </div>
           <div
@@ -104,7 +104,7 @@ export const InfoCard: FunctionComponent<InfoCardProps> = ({
             onClick={() => {
               dispatch({
                 id: 'go to screen',
-                screen: { id: 'messages', handle: 'connect.relaycc.eth' },
+                screen: { id: 'messages', handle: 'connect.relay-network.eth' },
               });
             }}>
             Message Us
@@ -253,7 +253,7 @@ export const InfoCard: FunctionComponent<InfoCardProps> = ({
             }
           </div>
           <nav className="FooterNav">
-            <a href="https://relay.cc" target="_blank" rel="noreferrer">
+            <a href="https://relay.network" target="_blank" rel="noreferrer">
               <img
                 style={{ display: 'inline-block' }}
                 src="https://relay-receiver-prod.s3.amazonaws.com/smallLogoBlack.png"
@@ -262,7 +262,7 @@ export const InfoCard: FunctionComponent<InfoCardProps> = ({
               />
             </a>
             <a
-              href="https://github.com/relaycc/receiver"
+              href="https://github.com/relay-network/receiver"
               target="_blank"
               rel="noreferrer">
               <Github className="SocialIcon" />
@@ -280,7 +280,7 @@ export const InfoCard: FunctionComponent<InfoCardProps> = ({
               <Discord className="SocialIcon" />
             </a>
             <a
-              href="https://mirror.xyz/relaycc.eth"
+              href="https://mirror.xyz/relay-network.eth"
               target="_blank"
               rel="noreferrer">
               <Mirror className="SocialIcon Mirror" />
@@ -299,7 +299,7 @@ export const BrandedFooter = () => {
     <footer className="InfoCard Footer">
       <a
         className="InfoCard FooterLink"
-        href="https://try.relay.cc"
+        href="https://try.relay.network"
         target="_blank"
         rel="noreferrer">
         <img
@@ -314,7 +314,7 @@ export const BrandedFooter = () => {
       <h3 className="InfoCard WordMark">Relay is open-source on</h3>
       <a
         className="InfoCard FooterLink"
-        href="https://github.com/relaycc/receiver"
+        href="https://github.com/relay-network/receiver"
         target="_blank"
         rel="noreferrer"
         style={{ transform: 'translateY(-2px)' }}>

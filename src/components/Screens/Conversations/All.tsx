@@ -15,7 +15,7 @@ import {
   useXmtpClient,
   Message,
   useWorkerQueryClient,
-} from '@relaycc/xmtp-hooks';
+} from '@relay-network/xmtp-hooks';
 import { useWalletAddress, useGoToMenu, useSetClosed } from '../../../hooks';
 
 export type AllStates =

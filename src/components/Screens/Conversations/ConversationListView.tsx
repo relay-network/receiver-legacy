@@ -6,7 +6,7 @@ import {
   isLensName,
 } from '../../../hooks';
 import { Plus } from '../../Elements/Icons';
-import { Conversation, EthAddress } from '@relaycc/xmtp-hooks';
+import { Conversation, EthAddress } from '@relay-network/xmtp-hooks';
 import { ConversationListItemV2 } from './ConversationListItemV2';
 
 export const ConversationListView: FunctionComponent<{

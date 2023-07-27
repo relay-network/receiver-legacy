@@ -6,7 +6,7 @@ import {
   fetchEnsName,
   isEnsName,
 } from './primitives';
-import { isEthAddress } from '@relaycc/xmtp-hooks';
+import { isEthAddress } from '@relay-network/xmtp-hooks';
 
 export const useEnsName = ({
   handle,

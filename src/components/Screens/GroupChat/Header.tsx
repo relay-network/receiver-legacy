@@ -1,5 +1,5 @@
 import React from 'react';
-import { EthAddress } from '@relaycc/xmtp-hooks';
+import { EthAddress } from '@relay-network/xmtp-hooks';
 import {
   useSetClosed,
   useGoBack,

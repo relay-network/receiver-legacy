@@ -6,7 +6,7 @@ import React from 'react';
 import { useResponsiveName, useEnsName } from '../../hooks';
 import { getDisplayDate } from '../../utils/date';
 import { motion } from 'framer-motion';
-import { Message } from '@relaycc/xmtp-hooks';
+import { Message } from '@relay-network/xmtp-hooks';
 
 export interface MessagesBucketProps {
   bucket: {

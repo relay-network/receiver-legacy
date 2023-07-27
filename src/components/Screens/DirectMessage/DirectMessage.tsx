@@ -19,7 +19,7 @@ import {
   useSendMessage,
   useXmtpClient,
   useWorkerQueryClient,
-} from '@relaycc/xmtp-hooks';
+} from '@relay-network/xmtp-hooks';
 import { Header } from './Header';
 
 export const DirectMessage: FunctionComponent = () => {

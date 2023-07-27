@@ -6,7 +6,7 @@ import '../../styles/app.css';
 import { motion } from 'framer-motion';
 
 export interface LauncherProps {
-  // TODO(achilles@relay.cc) We allow the user to pass in much more than a peer
+  // TODO(achilles@relay.network) We allow the user to pass in much more than a peer
   // address (ENS, Lens, etc), so we should name this variable accordingly. I
   // don't want to change the name until we at the very least have a good
   // migration guide process in place.

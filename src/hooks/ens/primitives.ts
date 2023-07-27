@@ -1,6 +1,6 @@
 import { getAddress } from '@ethersproject/address';
 import { AlchemyProvider } from '@ethersproject/providers';
-import { isEthAddress } from '@relaycc/xmtp-hooks';
+import { isEthAddress } from '@relay-network/xmtp-hooks';
 
 const provider = new AlchemyProvider(
   'homestead',

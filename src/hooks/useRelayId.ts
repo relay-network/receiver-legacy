@@ -8,7 +8,7 @@ import {
   getFirstProfile,
   getMostFollowedProfile,
 } from './lens';
-import { isEthAddress } from '@relaycc/xmtp-hooks';
+import { isEthAddress } from '@relay-network/xmtp-hooks';
 export const useRelayId = ({
   handle,
   wait,
